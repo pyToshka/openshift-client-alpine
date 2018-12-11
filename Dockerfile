@@ -1,6 +1,6 @@
 FROM  golang:1.10-alpine3.7 as builder
 MAINTAINER Iurii Medvedev <medvedev.yp@gmail.com>
-ENV OCBRANCH release-3.11
+
 RUN apk add --no-cache --virtual .build-deps \
     git \
     gcc \
